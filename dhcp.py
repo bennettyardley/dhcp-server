@@ -1,3 +1,5 @@
+#https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
+
 from scapy.all import *
 import pydivert
 
@@ -11,4 +13,3 @@ with pydivert.WinDivert("tcp.DstPort == 67") as syn:
         syn.send(packet)
         sync(packet)
 
-                #https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
