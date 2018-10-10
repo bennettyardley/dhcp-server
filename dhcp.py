@@ -5,8 +5,8 @@ import pydivert
 
 
 def sync(packet):
-    packet.
-    sendp(Ether(src
+    #craft DHCP offer 
+    
 
 with pydivert.WinDivert("tcp.DstPort == 67") as syn:
     for packet in syn:
