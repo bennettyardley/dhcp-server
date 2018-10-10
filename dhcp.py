@@ -6,6 +6,7 @@ import pydivert
 
 def sync(packet):
     #craft DHCP offer 
+    #send DHCP offer
     
 
 with pydivert.WinDivert("tcp.DstPort == 67") as syn:
