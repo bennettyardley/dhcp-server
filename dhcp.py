@@ -4,7 +4,7 @@ import pydivert
 
 def sync(packet):
     #craft DHCP offer 
-    #send DHCP offer
+    #send  offer
     #wait for request
     #send ack
     #add taken ip to list
