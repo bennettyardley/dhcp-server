@@ -2,7 +2,7 @@ from scapy.all import *
 import pydivert
 
 
-def sync(packet):
+def (packet):
     #craft DHCP offer 
     #send DHCP offer
     #wait for request
