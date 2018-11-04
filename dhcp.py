@@ -1,5 +1,5 @@
 from scapy.all import *
-import 
+import pydivert
 
 
 def sync(packet):
