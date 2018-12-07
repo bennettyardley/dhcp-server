@@ -7,7 +7,6 @@ def sync(packet):
     #send DHCP offer
     #wait for request
     #send ack
-    #add taken ip to list
 
 #wait for dhcp discovery 
 with pydivert.WinDivert("tcp.DstPort == 67") as syn:
